@@ -16,9 +16,13 @@ const loadMoreBtn = new LoadMoreBtn({
 });
 
 function onSearch(event) {
-  event.preventDefault();
-  imgApiService.query = event.currentTarget.elements.query.value;
+  if(event.currentTarget.elements.query.value === '') {
+    return;
+  }
 
+  event.preventDefault();
+
+  imgApiService.query = event.currentTarget.elements.query.value;
   loadMoreBtn.show();
   imgApiService.resetPage();
   clearGallery();
