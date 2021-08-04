@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Anastasia-A-2020/goit-js-hw-13-image-finder.git"
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
@@ -29,7 +29,11 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
+    "basiclightbox": "^5.0.4",
     "gh-pages": "^3.2.3",
-    "regenerator-runtime": "^0.13.7"
+    "lodash.debounce": "^4.0.8",
+    "notiflix": "^3.0.1",
+    "regenerator-runtime": "^0.13.7",
+    "simplelightbox": "^2.8.0"
   }
 }
