@@ -23,7 +23,7 @@ async function onSubmit(e) {
     if (e.currentTarget.elements.searchQuery.value === '') {
         return Notiflix.Notify.warning('ops! Nothing is entered!');
     }
-    if (e.currentTarget.elements.searchQuery.value.length > 10) {
+    if (e.currentTarget.elements.searchQuery.value.length > 15) {
         return Notiflix.Notify.warning('ops! Nothing is entered!');
     }
 
